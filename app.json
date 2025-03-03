@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền truy cập vị trí để hiển thị la bàn.",
+        "NSLocationAlwaysUsageDescription": "Ứng dụng cần quyền truy cập vị trí ngay cả khi chạy nền."
+      }
     },
     "android": {
       "adaptiveIcon": {

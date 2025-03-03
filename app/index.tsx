@@ -1,10 +1,15 @@
+import Compass from "@/component/Compass";
+import DeviceOrientation from "@/component/DeviceOrientation";
+import UserLocation from "@/component/UserLocation";
 import { View } from "react-native";
-import Compass from "./Compass";
+
 
 export default function Index() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Compass></Compass>
-    </View>
+      {/* <UserLocation></UserLocation> */}
+      {/* <DeviceOrientation></DeviceOrientation> */}
+    </View >
   );
 }
